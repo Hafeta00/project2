@@ -1,0 +1,35 @@
+
+DROP TABLE IF EXISTS standings;
+
+
+-- create a table
+CREATE TABLE standings (
+  id INTEGER,
+  teamname TEXT NOT NULL,
+  wins INTEGER,
+  losses INTEGER
+
+);
+
+INSERT INTO standings(id, teamname, wins,losses)
+VALUES (1, "Suns", 21, 4);
+
+INSERT INTO standings(id, teamname, wins,losses)
+VALUES (2, "Warriors", 21, 5);
+
+INSERT INTO standings(id, teamname, wins,losses)
+VALUES (3, "Jazz", 19, 7);
+
+INSERT INTO standings(id, teamname, wins,losses)
+VALUES (4, "Nets", 19, 8);
+
+INSERT INTO standings(id, teamname, wins,losses)
+VALUES (5, "Bucks", 18, 10);
+
+
+
+
+INSERT INTO standings(id, teamname, wins,losses)
+VALUES (1, "Sixers", 32, 14);
+
+
